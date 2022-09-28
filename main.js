@@ -1,6 +1,6 @@
 var currentPage = 1;
 
-document.getElementById(`pag${currentPage}`).style.display = 'block';
+document.getElementById(`Pag${currentPage}`).style.display = 'block';
 
 function nextPage(){
     nextPage = currentPage + 1;
@@ -13,6 +13,6 @@ function prevPage(){
 }
 
 function updatePage(pageNumber){
-    document.getElementById(`pag${currentPage}`).style.display = 'none';
-    document.getElementById(`pag${pageNumber}`).style.display = 'block';
+    document.getElementById(`Pag${currentPage}`).style.display = 'none';
+    document.getElementById(`Pag${pageNumber}`).style.display = 'block';
 }

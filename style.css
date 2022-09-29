@@ -1,18 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Amatic SC', sans-serif;
-    color: yellow
- }
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  font-family: 'Amatic SC', sans-serif;
+  color: yellow
+}
 
  /*Heater*/
 
- .header-container {
+.header-container {
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #212122;
- }
+  background-size: contain;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  
+}
 
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
 
  /*Heater2*/
 

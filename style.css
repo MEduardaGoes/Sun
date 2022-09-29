@@ -5,7 +5,8 @@
   padding: 0;
   padding-top: 0;
   font-family: 'Amatic SC', sans-serif;
-  color: yellow
+  color: yellow;
+  background-color: #212122;
 }
 
  /*Heater*/
@@ -205,4 +206,10 @@ div.Pagina{
 #toggle:checked ~ .menu-itens {
   visibility: visible;
   opacity: 1;
+}
+
+.TextoPag {
+  border: 1px solid yellow;
+  border-radius: 15px;
+  padding: 20px;
 }

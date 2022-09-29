@@ -4,10 +4,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Amatic SC', sans-serif;
-    color: #1e1e1e
+    color: yellow
  }
 
  /*Heater*/
+
+ .header-container {
+  background-color: #212122;
+ }
 
 
  /*Heater2*/
@@ -15,7 +19,7 @@
  .header2-container {
   height: 100vh;
   width: 100vw;
-  background-color: none;
+  background-color: #212122;
   background-image: url('') ;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,17 +39,17 @@ div.Pagina{
 
  /*Botão*/
  .button {
-   margin-top: 35%;
-   margin-left: 50%;
-   margin-left: 50%;
-   display: inline-block;
+  margin-top: 35%;
+  margin-left: 50%;
+  margin-left: 50%;
+  display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #fff;
+  color: yellow;
   background-color: #4CAF50;
   border: none;
   border-radius: 15px;

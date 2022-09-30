@@ -26,15 +26,6 @@ header
 
 }
 
-header .Logo
-{
-    color: #ffff;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
 
 header ul {
     display: flex;
@@ -80,4 +71,21 @@ header ul li a.active
     right: 0;
     z-index: -1;
 
+}
+
+.box
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box h1
+{
+    color: #ffff;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #ffff;
+    
 }

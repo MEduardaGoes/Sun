@@ -65,3 +65,19 @@ header ul li a.active
     color: #2b1055;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+}

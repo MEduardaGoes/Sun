@@ -10,7 +10,7 @@
 body
 {
     min-height: 100vh;
-    background: linear-gradient(#2b1055,#7597de);
+    background: linear-gradient(#290f53,#6488d4);
 }
 
 header
@@ -62,7 +62,7 @@ header ul li a.active
 
 {
     background: #ffff;
-    color: #2b1055;
+    color: #290e53;
 }
 
 * {
